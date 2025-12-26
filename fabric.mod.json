@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "aurexclient",
+  "version": "${version}",
+  "name": "Aurex Client",
+  "description": "A clean, modular, next‑gen client‑style Fabric mod.",
+  "authors": ["Aurex Team"],
+  "contact": {
+    "homepage": "https://github.com/your-user/AurexClient",
+    "sources": "https://github.com/your-user/AurexClient"
+  },
+  "license": "MIT",
+  "icon": "assets/aurexclient/textures/gui/hud_placeholder.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.aurex.AurexClient"],
+    "client": ["dev.aurex.AurexClient"]
+  },
+  "mixins": ["aurexclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
